@@ -1,0 +1,94 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 377px;
+  height: 679px;
+  background-color: lightgray;
+  padding-top: 0;
+  border: 1px solid lightgray;
+}
+
+.appHeader{
+  display: flex;
+  flex-direction: row;
+  background-color: darkslateblue;
+  color: white;
+}
+
+.appImg {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.appText {
+  margin-left: 5px;
+  align-self: center;
+  font-family: Calibri, serif;
+  font-weight: bold;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 613px;
+  background-color: lightgray;
+  color: white;
+  overflow-y: auto;
+}
+
+.appSend {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.appSend input {
+  line-height: 28px;
+  width: 100%;
+  background-color: white;
+}
+
+.appButton {
+  width: 30%;
+  font-size: 16px;
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  outline: none;
+  transition-duration: 0.2s;
+}
+
+.appButton:active {
+  font-size: 12px;
+}
+
+.messageBox {
+  margin-bottom: 5px;
+}
+
+.botMessage, .userMessage {
+  font-size: 18px;
+  display: inline-block;
+  padding: 14px;
+  width: auto;
+  margin: 8px 16px;
+  font-family: monospace;
+  word-wrap: break-word;
+}
+
+.botMessage {
+  color: #000;
+  background: #fff;
+  border-radius:0 8px 8px 8px;
+}
+
+.userMessage {
+  float: right;
+  color: #fff;
+  background: darkslateblue;
+  border-radius: 8px 8px 0 8px;
+}
+
